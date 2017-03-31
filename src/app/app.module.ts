@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { UpgradeModule } from '@angular/upgrade/static';
 
 @NgModule({
   declarations: [
@@ -12,9 +13,13 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    UpgradeModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [] /*,
+  bootstrap: [AppComponent] */
 })
-export class AppModule { }
+export class AppModule {
+  ngDoBootstrap() {}
+  
+}
