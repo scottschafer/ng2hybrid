@@ -1,5 +1,9 @@
 # Ng2hybrid
 
+OMFG...a WORKING and COMPLETE example of using ngUpgrade to bootstrap an Angular 1 app into Angular 2!!!!
+
+Like, the code actually compiles and works. I know, incredible, right? And it even has some comments!
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Development server
