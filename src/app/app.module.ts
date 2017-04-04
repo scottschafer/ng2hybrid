@@ -5,10 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { UpgradeModule } from '@angular/upgrade/static';
+import { Ng2testComponent } from './ng2test/ng2test.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Ng2testComponent
   ],
   imports: [
     BrowserModule,
@@ -16,10 +18,9 @@ import { UpgradeModule } from '@angular/upgrade/static';
     HttpModule,
     UpgradeModule
   ],
-  providers: [] /*,
-  bootstrap: [AppComponent] */
+  providers: [],
+  bootstrap: []
 })
 export class AppModule {
   ngDoBootstrap() {}
-  
-}
+ }
