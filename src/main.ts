@@ -37,8 +37,10 @@ app.directive('ng2Directive',
  * 
  *  A platform with a different configuration has been created. Please destroy it first
  * 
- * Using destroyPlatform();
+ * Using destroyPlatform() prevents that message, but then we get this exception:
+ * Unexpected value 't' imported by the module 'class0'. Please add a @NgModule annotation
  */
 
-destroyPlatform();
+//destroyPlatform();
+
 adapter.bootstrap(document.body, ['ng1app']);
