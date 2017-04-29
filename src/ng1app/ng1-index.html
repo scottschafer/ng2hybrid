@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width">
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
   <script src="ng1-script.js"></script>
+
+  <style>
+  </style>
 </head>
 
 <body>
-  <div ng-controller="Ng1Ctrl">
-    {{angular1Msg}}<br>
-    
-    <test></test>
-  </div>
+  <ui-view></ui-view>
 </body>
 
 </html>

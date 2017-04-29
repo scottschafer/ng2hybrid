@@ -6,6 +6,8 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { UpgradeModule } from '@angular/upgrade/static';
 import { Ng2testComponent } from './ng2test/ng2test.component';
+//import uiRouter from "angular-ui-router";
+//let ng1module = angular.module("myApp", [uiRouter, 'ui.router.upgrade']);
 
 @NgModule({
   declarations: [
@@ -16,7 +18,7 @@ import { Ng2testComponent } from './ng2test/ng2test.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    UpgradeModule
+    UpgradeModule    
   ],
   providers: [],
   bootstrap: []

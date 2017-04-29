@@ -20,13 +20,8 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
-    "@angular/upgrade": "^4.0.1",
-    "@uirouter/angular": "^1.0.0-beta.5",
-    "angular-ui-router": "^0.4.2",
     "core-js": "^2.4.1",
     "rxjs": "^5.1.0",
-    "ui-router-ng1-to-ng2": "^1.0.15",
-    "ui-router-ng2": "^1.0.0-beta.5",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

@@ -10,17 +10,28 @@
 
   <!-- IMPORTED FROM NG1-INDEX.HTML -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+  <script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
   <script src="./ng1app/ng1-script.js"></script>
 
 </head>
 
+
+<body>
+  <p>
+    <ng2-directive></ng2-directive>
+  </p>
+  
+  <ui-view></ui-view>
+</body>
+
+<!--
 <body>
   <div ng-controller="Ng1Ctrl">
     {{angular1Msg}}
     <br>
     <ng1-directive></ng1-directive>
-    <ng2-directive></ng2-directive>
   </div>
 </body>
+-->
 
 </html>
